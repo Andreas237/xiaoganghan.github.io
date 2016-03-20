@@ -29,7 +29,7 @@ avatar: "https://avatars0.githubusercontent.com/u/161725?v=3&s=460"
 navbar-links:
   Home: ""
   About Me: "aboutme"
-  CodersCrowd: "http://coderscrowd.com"
+#  CodersCrowd: "http://coderscrowd.com"
 
 # --- Footer options --- #
 
@@ -61,15 +61,15 @@ url-pretty: "xiaoganghan.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "xghan"
+disqus: "xiaoganghan"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-74825001-1"
+google_analytics: "UA-58519746-1"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Singapore"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
