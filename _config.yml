@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://radaniba.github.io"
+url: "http://xiaoganghan.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: The Full Stack Data Scientist
+title: Han Xiaogang
 
 # Short description of your site
-description: Resources for Data Science
+description: Han Xiaogang's Blog
 
 # --- Navigation bar options --- #
 
@@ -36,12 +36,12 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Radhouane Aniba
-  email: "rad@coderscrowd.com"
+  name: Han Xiaogang
+  email: "xganghan@gmail.com"
   facebook: yourname  # eg. daattali
-  github: radaniba    # eg. daattali
-  twitter: radaniba   # eg. daattali
-  linkedin: /in/radwenaniba  # eg. "pub/dean-attali/8/946/143"
+  github: xiaoganghan    # eg. daattali
+  twitter: xiaoganghan   # eg. daattali
+  linkedin: /in/xghan  # eg. "pub/dean-attali/8/946/143"
   #stackoverflow: yourlink  # eg. "3943160/daattali"
 
 # Select which links to show in the footer
