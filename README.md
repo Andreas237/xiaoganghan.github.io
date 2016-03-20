@@ -1,3 +1,6 @@
-## Note
+## ipython notebook
 
-Setting up a new thing here, new website coming soon
+```
+# https://gist.github.com/tgarc/7d6901858ef708030c19
+ipython nbconvert --to markdown notebook_name.ipynb --config jekyll.py
+```
