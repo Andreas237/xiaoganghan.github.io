@@ -15,9 +15,9 @@ tags:
 {% endblock in_prompt %}
 
 {% block input %}
-{{ '{% highlight python %}' }}
+{{ '```python' }}
 {{ cell.source }}
-{{ '{% endhighlight %}' }}
+{{ '```' }}
 {% endblock input %}
 
 {% block data_svg %}
