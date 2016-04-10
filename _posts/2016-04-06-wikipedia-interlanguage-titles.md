@@ -9,6 +9,8 @@ tags:
 
 # Problem
 
+Wikipedia is great knowledge base for interlanguage interpretation. In this post I will show how to use wikipedia to build a dictionary for any given pair of language.
+
 find the translation of all the titles one language in another language on wikipedia
 
 # Solution
