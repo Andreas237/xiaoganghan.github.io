@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wikipeida title translations
+title: Wikipedia title translations
 subtitle: find the translation of all the titles one language in another language on wikipedia
 category: data
 tags:
