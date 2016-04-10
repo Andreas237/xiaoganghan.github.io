@@ -62,18 +62,32 @@ Given a source language and target language, the mapping process can be describe
 ## steps
 I've created to python script to do the translation (https://github.com/xiaoganghan/wikipedia-interlanguage-titles). Suppose we would like to find the translations for all Chinese page titles to English. The steps are:
 
-1. download and unzip the data dumps 
+### download and unzip the data dumps 
 The data is dumped daily. Both the data for a specific language in each month can be found on https://dumps.wikimedia.org. For example, the Chinese version on 5th March 2016 can be found at https://dumps.wikimedia.org/zhwiki/20160305/
 
 (1) page https://dumps.wikimedia.org/zhwiki/20160305/zhwiki-20160305-langlinks.sql.gz
+
 (2) langlinks https://dumps.wikimedia.org/zhwiki/20160305/zhwiki-20160305-page.sql.gz
 
 
-2. run the tool
+### run the tool
 ```
 python wikititles.py -p /path/to/zhwiki-20160305-page.sql -l /path/to/zhwiki-20160305-langlinks.sql -c en -o trans.txt
 ```
 
-Output sample
 ```
+head trans.txt
+
+...
+13	数学	Mathematics
+14	目录	Help:Contents
+18	哲学	Philosophy
+21	文學	Literature
+22	历史	History
+25	计算机科学	Computer science
+32	版权信息	Wikipedia:Copyrights
+35	方針與指引	Wikipedia:Policies and guidelines
+...
 ```
+
+Please follow the link to the tool https://github.com/xiaoganghan/wikipedia-interlanguage-titles for more details.
