@@ -4,11 +4,18 @@ title: About me
 subtitle: And this website
 ---
 
-Hello ! I am Han Xiaogang.
+I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing, and Machine Learning skills. After graduation, I joined the industry and gained experience building distributed services and machine learning pipelines, and more.
 
-## Interests
+## Skills
+- **Languages**: Python, Golang, Java
+- **Data Science**: Data collection, Text Mining, Deep Learning, Anomaly Detection, Recommendation
+- **Databases**: Postgres, MySQL, SQLite, MongoDB
+- **Devops**.: Docker, Jenkins, Ansible
 
-Data Mining, Information Retrieval, Crowdsourcing, Machine Learning
+
+## Side Projects
+- startup insights: webapp to quantitatively analyze startup companies (founder, team and more) using data collected from different soical network websites
+
 
 ## Publication
 
