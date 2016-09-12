@@ -10,7 +10,7 @@ I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where
 - **Languages**: Python, Golang, Java
 - **Data Science**: Data collection, Text Mining, Deep Learning, Anomaly Detection, Recommendation
 - **Databases**: Postgres, MySQL, SQLite, MongoDB
-- **Devops**.: Docker, Jenkins, Ansible
+- **Devops**.: AWS Services, Docker, Mesos, Jenkins, Ansible
 
 
 ## Side Projects
