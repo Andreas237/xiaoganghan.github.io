@@ -13,10 +13,6 @@ I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where
 - **Devops**.: AWS Services, Docker, Mesos, Jenkins, Ansible
 
 
-## Side Projects
-- startup insights: webapp to quantitatively analyze startup companies (founder, team and more) using data collected from different soical network websites
-
-
 ## Publication
 
 - **Xiaogang Han**, Wei Wei, Chunyan Miao, Jian-Ping Mei, and Hengjie Song, Context-Aware Personal Information Retrieval from Multiple Social Networks, *IEEE Computational Intelligence Magazine*, Vol.9(2), pp.18-28, 2014
