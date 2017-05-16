@@ -1,9 +1,11 @@
 ---
 layout: post
-title: A basic setup for text classification and similarity search with Python and sklearn
-category: data
+title: Text classification and similarity search with Python and sklearn
 tags:
-  - classification, sklearn, python, nearest neighbour search
+  - classification
+  - sklearn
+  - python
+  - nearest neighbour search
 ---
 
 # Motivation
