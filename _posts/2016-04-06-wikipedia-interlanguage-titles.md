@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wikipedia title translations
-subtitle: find the translation of all the titles one language in another language on wikipedia
+subtitle: Find the translation of all the titles one language in another language on wikipedia
 category: data
 tags:
   - data, python, wikipedia
