@@ -64,8 +64,6 @@ class TextCls():
         for i in range(len(y_test)):
             if y_test[i] == y_pred[i]:
                 same += 1
-            if self.label_names[y_test[i]] == 'beach_clothing':
-                print('{}\t{}\t{}'.format(self.label_names[y_test[i]].encode('utf-8'), X_test[i].encode('utf-8'), self.label_names[y_pred[i]].encode('utf-8')))
             total += 1
         print(total, same)
 
