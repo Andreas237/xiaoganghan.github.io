@@ -4,13 +4,13 @@ title: About me
 subtitle: And this website
 ---
 
-I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing quality control, and Machine Learning skills. After graduation, I joined the industry and gained experience building distributed systems for NLP and image recognition applications.
+I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing quality control, and Machine Learning skills. After graduation, I have been working at a computer vision company, and building distributed systems for NLP and image recognition applications.
 
 ## Skills
 - **Languages**: Python, Golang, Java
-- **Data Science**: Data collection, Text Mining, Deep Learning, Anomaly Detection, Recommendation
-- **Databases**: Postgres, MySQL, SQLite, MongoDB
-- **Devops**.: AWS Services, Docker, Mesos, Jenkins, Ansible
+- **Data Science**: Text Mining, Deep Learning, Anomaly Detection, Recommendation
+- **Databases**: Postgres, MySQL, MongoDB
+- **Devops**.: AWS Services, Docker, Mesos, Kubernetes, Jenkins, Ansible
 
 
 ## Publication
@@ -18,8 +18,6 @@ I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where
 - **Xiaogang Han**, Wei Wei, Chunyan Miao, Jian-Ping Mei, and Hengjie Song, Context-Aware Personal Information Retrieval from Multiple Social Networks, *IEEE Computational Intelligence Magazine*, Vol.9(2), pp.18-28, 2014
 
 - **Xiaogang Han**, Wenjun Zhou, Xing Jiang, Hengjie Song, Ming Zhong, and Toyoaki Nishida, Utilizing URLs Position to Estimate Intrinsic Query-URL Relevance, *ICDM 2013*, pp 251-260, 2013
-
-- Qiong Wu, **Xiaogang Han**, Han Yu, Zhiqi Shen, and Chunyan Miao. The innovative application of learning companions in virtual singapura, *AAMAS 2013*, pp 1171-1172, 2013
 
 - **Xiaogang Han**, Shaohua Li, and Zhiqi Shen. A k-NN Method for Large Scale Hierarchical Text Classification at LSHTC3, *ECML-PKDD 2012 PASCAL Workshop on Large-Scale Hierarchical Classification*, 2012
 
