@@ -27,6 +27,7 @@ tags:
 
 # Using selenium
 * sleep
+* no display
 
 ## code
 ```python
