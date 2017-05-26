@@ -9,18 +9,26 @@ tags:
 ---
 
 # Motivation
-
-# Using requests
+# Common considerations
 * headers
 * user agents
 * retry, timeout
 * shared session
 * list/detail
 * concurrent requests
+* proxy
+* scalabilty
 
+# Using requests
 ## code
 ```python
+# Instagram
 ```
 
 # Using selenium
 * sleep
+
+## code
+```python
+# Facebook places
+```
