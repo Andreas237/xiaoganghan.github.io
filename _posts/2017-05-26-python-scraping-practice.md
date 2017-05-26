@@ -16,6 +16,7 @@ tags:
 * retry, timeout
 * shared session
 * list/detail
+* concurrent requests
 
 ## code
 ```python
