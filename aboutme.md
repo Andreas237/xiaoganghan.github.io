@@ -4,7 +4,9 @@ title: About me
 subtitle: And this website
 ---
 
-I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing quality control, and Machine Learning skills. After graduation, I have been working at a computer vision company, and building distributed systems for NLP and image recognition applications.
+I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing quality control, and Machine Learning skills. 
+
+After graduation, I have been working at a computer vision company, and building and deploying distributed systems for NLP and image recognition services.
 
 ## Skills
 - **Languages**: Python, Golang, Java
