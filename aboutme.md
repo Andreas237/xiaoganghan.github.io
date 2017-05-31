@@ -1,12 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: And this website
+subtitle: And me and this website
 ---
 
-I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing quality control, and Machine Learning skills. 
-
-After graduation, I have been working at a computer vision company, and building and deploying distributed systems for NLP and image recognition services.
+Hello! My name is Xiaogang Han. I live in Vancouver, BC, Canada. I am working as a Senior Software Engineer on data and algorithm team at a computer vision company. I love creating and sharing ideas. My favorite languages are Python and Golang. I obtained my PhD degree from [NTU](http://www.ntu.edu.sg/Pages/home.aspx) where I was trained with Data Mining, Information Retrieval, Crowdsourcing quality control, and Machine Learning skills. At work, I am building and deploying distributed systems for NLP and image recognition services.
 
 ## Skills
 - **Languages**: Python, Golang, Java
