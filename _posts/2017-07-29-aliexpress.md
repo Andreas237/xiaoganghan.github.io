@@ -10,10 +10,11 @@ img: /img/aliexpress.png
 - [Introduction](#introduction)
 - [Scraping](#scraping)
   - [Login](#login)
-  - [Scrape hot products with Selenium](#hot-products)
-  - [Extract product data from detail page](#detail-page)
-  - [Extract Feedback using the hidden API](#feedback)
+  - [Scrape hot products with Selenium](#scrape-hot-products-with-selenium)
+  - [Extract product data from detail page](#extract-product-data-from-detail-page)
+  - [Extract Feedback using the hidden API](#extract-feedback-using-the-hidden-api)
 - [Feedback Mining](#feedback-mining)
+- [Conclusion](#conclusion)
 <!-- /TOC -->
 
 # Introduction
@@ -299,7 +300,7 @@ The feedback from the buyers contains rich information about the buyers' prefere
 4. The product variants
 ![detail](/img/aliexpress-plot-skuinfo.png)
 
-
+The code for generating the visualization:
 ```python
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -332,3 +333,5 @@ ax = vc.plot(kind='pie')
 ax.set_ylabel("skuInfo")
 plt.savefig('aliexpress-plot-skuinfo.png')
 ```
+# Conclusion
+In this post, we went through the process to extract product information from Aliexpress, and did some simple data mining with the buyer feedback data. One thing to mention is that the buyer feedback can tell more information about the product. For example, you can do some text mining to find usually how long it takes for the buyers to get the product by location.
