@@ -10,8 +10,8 @@ img: /img/aliexpress.png
 - [Introduction](#introduction)
 - [Scraping](#scraping)
   - [Login](#login)
-  - [Hot Products](#hot-products)
-  - [Detail page](#detail-page)
+  - [Scrape hot products](#hot-products)
+  - [Get product data from detail page](#detail-page)
   - [Feedback](#feedback)
 - [Feedback Mining](#feedback-mining)
 <!-- /TOC -->
@@ -22,6 +22,8 @@ Aliexpress is a popular place to buy and source good and cheap products. One of 
 # Scraping
 ## Login
 When scraping Aliexpress pages, you will get banned very soon if you are not logged in. So the first step is to login with selenium and save the cookies into local files for later use.
+
+Run the code below, you will get Aliexpress login page opened in Firefox, type in your Aliexpress username/password and hit Submit, the code will save the cookies to ```cookies.ini```
 
 ![login](/img/aliexpress-login.png)
 
@@ -52,3 +54,5 @@ if __name__ == '__main__':
     get_cookies()
 
 ```
+
+## 
