@@ -218,10 +218,11 @@ One more interesting thing we can extract from the detail page is the list of re
 ![review](/img/aliexpress-review.png)
 
 ```python
+import csv
 import requests
 
 
-def extract_product_reviews(product_id, max_page=20):
+def extract_product_reviews(product_id, max_page=100):
     url_template = 'https://m.aliexpress.com/ajaxapi/EvaluationSearchAjax.do?type=all&index={}&pageSize=20&productId={}&country=US'
     initial_url = url_template.format(1, product_id)
     reviews = []
@@ -269,6 +270,12 @@ def extract_product_reviews(product_id, max_page=20):
             'thumbnail': review['thumbnails'][0] if 'thumbnails' in review and len(review['thumbnails']) > 0 else '',
         }
         filtered_reviews.append(data)
+
+    keys = filtered_reviews[0].keys()
+    with open('reviews.csv', 'w') as output_file:
+        dict_writer = csv.DictWriter(output_file, keys)
+        dict_writer.writeheader()
+        dict_writer.writerows(filtered_reviews)
     return filtered_reviews
 
 
@@ -278,4 +285,50 @@ if __name__ == '__main__':
 ```
 
 # Feedback Mining
+The feedback from the buyers contains rich information about the buyers' preferences and choices when buying the products.
 
+1. The number of the reviews by date
+![detail](/img/aliexpress-plot-review.png)
+
+2. Top countries of the buyers
+![detail](/img/aliexpress-plot-countries.png)
+
+3. Top logistics used by the buyers
+![detail](/img/aliexpress-plot-logistics.png)
+
+4. The product variants
+![detail](/img/aliexpress-plot-skuinfo.png)
+
+
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+import matplotlib
+matplotlib.style.use('ggplot')
+
+df = pd.read_csv('reviews.csv')
+df['evalDate'] = pd.to_datetime(df['evalDate'])
+
+vc = df['evalDate'].value_counts()
+ax = vc.plot()
+ax.set_xlabel("date")
+ax.set_ylabel("review count")
+plt.savefig('aliexpress-plot-review.png')
+
+vc = df['buyerCountry'].value_counts()[:10]
+ax = vc.plot(kind='pie')
+ax.set_ylabel("top 10 buyer countries")
+plt.savefig('aliexpress-plot-countries.png')
+
+
+vc = df['logistics'].value_counts()[:5]
+ax = vc.plot(kind='pie')
+ax.set_ylabel("top 5 logistics")
+plt.savefig('aliexpress-plot-logistics.png')
+
+
+vc = df['skuInfo'].value_counts()
+ax = vc.plot(kind='pie')
+ax.set_ylabel("skuInfo")
+plt.savefig('aliexpress-plot-skuinfo.png')
+```
