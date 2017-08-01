@@ -67,7 +67,7 @@ import time
 
 driver = webdriver.Firefox()
 driver.get("https://aliexpress.com")
-cookies = pickle.load(open("cookies.ini", "rb"))
+cookies = pickle.load(open("cookies.pickle", "rb"))
 for cookie in cookies:
     driver.add_cookie(cookie)
 
@@ -115,7 +115,7 @@ from bs4 import BeautifulSoup
 
 driver = webdriver.Firefox()
 driver.get("https://aliexpress.com")
-cookies = pickle.load(open("cookies.ini", "rb"))
+cookies = pickle.load(open("cookies.pickle", "rb"))
 for cookie in cookies:
     driver.add_cookie(cookie)
 
